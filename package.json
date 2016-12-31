@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon lib/index.js",
     "test": "NODE_PATH=./lib jest --watch"
   },
   "author": "",
