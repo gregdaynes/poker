@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon lib/index.js",
     "test": "NODE_PATH=./lib jest --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^18.1.0",
-    "nodemon": "^1.11.0"
+    "jest": "^18.0.0"
   },
   "jest": {
-    "bail": false,
+    "bail": true,
     "collectCoverage": true,
     "testPathDirs": [
       "lib"
-    ]
+    ],
+    "verbose": true,
+    "automock": false
   }
 }
