@@ -18,7 +18,6 @@
     "collectCoverage": true,
     "testPathDirs": [
       "lib"
-    ],
-    "automock": false
+    ]
   }
 }
